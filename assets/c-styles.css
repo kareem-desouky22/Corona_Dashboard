@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap');
+
+html {
+    font-family: 'PT Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+    background: transparent;  /* make scrollbar invisible */
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: semibold;
+}
+
+#summary {
+    font-size: 1.6rem;
+}
+
+#container {
+    text-align: center;
+    margin: auto;
+    width: 950px;
+}
+
+#columns {
+    display: flex;
+}
+
+#left-col {
+    flex: 2.6 1 0;
+}
+
+#right-col {
+    flex: 1 1 0;
+    text-align: left;
+    padding: 5px;
+}
+
+.tab-container {
+    font-size: 2rem;
+    font-weight: semibold;
+}
+
+#map {
+    position: relative;
+    height: 100%;
+}
